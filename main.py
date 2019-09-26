@@ -14,7 +14,6 @@ GYRO_XOUT_H  = const(0x43)
 GYRO_YOUT_H  = const(0x45)
 GYRO_ZOUT_H  = const(0x47)
 
-# Wake up board
 device_addr = 104
 i2c = I2C(2,I2C.MASTER)
 
